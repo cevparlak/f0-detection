@@ -1,23 +1,3 @@
-% s2=[s(1:1000);s(30000:31000)];
-% clc;clear all;
-% close all;
-figure(1)
-plot(e1(:,2),'red')
-hold on;
-plot(e1(:,1),'blue')
-% gscatter(e1(:,1),e1(:,2));
-xlabel('s a m p l e   n u m b e r','FontSize',10,'FontWeight','bold');
-ylabel('f_0','FontSize',14,'FontWeight','bold','Rotation',0, 'VerticalAlignment','top', 'HorizontalAlignment','right');
-title('Hillenbrand Dataset');
-txt = '\uparrow b  o  y  s';
-text(10,170,txt)
-txt = '\uparrow g  i  r  l  s';
-text(310,170,txt)
-txt = '\uparrow m  a  n';
-text(550,70,txt)
-txt = '\uparrow w  o  m  a  n';
-text(1100,160,txt)
-return
 clc; clear all; close all;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % [filename, filepath] = uigetfile('*.wav','Select wave file');
